@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left {
+
+    position: absolute;
+    left: 75px;
+    top: 35px;
+    display: inline-block;
+    /* border: 2px solid white; */
+    height: auto;
+}
+
+
+.left div {
+    font-family: 'Paytone One';
+    font-size: 30px;
+}
+
+.right label {
+    font-family: 'Paytone One';
+    font-size: 15px;
+}
+
+
+.right select {
+    background: rgb(255, 255, 255);
+    width: 80px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+
+.right {
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    display: inline-block;
+    /* border: 2px solid white; */
+}
+
+
+
+.heading {
+    margin: 30px;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator {
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0);
+    background-color: #22252d;
+    border-radius: 12px;
+
+
+
+}
+
+form input {
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    text-align: right;
+    /* pointer-events: none; */
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.button1,
+.button2,
+.button3,
+.button4 {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid black;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgb(245, 146, 62);
+    color: white;
+}
+
+.button1:hover {
+    background-color: rgb(244, 118, 8);
+    color: black;
+}
+
+.button3 {
+    background-color: green;
+}
+
+.button3:hover {
+    background-color: rgb(2, 116, 2);
+}
+
+.button4 {
+    background-color: red;
+}
+
+.button4:hover {
+    background-color: rgb(214, 2, 2);
+}
